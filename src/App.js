@@ -7,8 +7,8 @@ import "./styles.css";
 import { ConfigProvider } from "antd";
 import dayjs from "dayjs";
 import "dayjs/locale/th";
-import dayjsGenerateConfig from "rc-picker/lib/generate/dayjs";
-import generatePicker from "antd/es/date-picker/generatePicker";
+import dayjsGenerateConfig from 'rc-picker/lib/generate/dayjs'
+import generatePicker from 'antd/es/date-picker/generatePicker';
 import "antd/es/date-picker/style";
 
 const DatePicker = generatePicker(dayjsGenerateConfig);

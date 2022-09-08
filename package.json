@@ -5,9 +5,10 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "antd": "3.26.0",
+    "antd": "^4.23.0",
     "dayjs": "1.11.5",
     "moment-timezone": "0.5.27",
+    "rc-picker": "^2.6.10",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.3"
